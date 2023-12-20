@@ -9,11 +9,11 @@ DROP TABLE IF EXISTS dbo.Employees;
 -- Create new table in the dbo schema with selected column names and data types
 CREATE TABLE dbo.Employees
 (
- empid		INT			NOT NULL,
+ empid		INT		NOT NULL,
  firstname	VARCHAR(30)	NOT NULL,
  lastname	VARCHAR(30)	NOT NULL,
  hiredate	DATE		NOT NULL,
- mgrid		INT			NULL,
+ mgrid		INT		NULL,
  ssn		VARCHAR(20)	NOT NULL,
  salary		MONEY		NOT NULL
 );
@@ -51,7 +51,7 @@ CREATE TABLE dbo.Orders
 (
  orderid  INT		  NOT NULL,
  empid	  INT		  NOT NULL,
- custid	  VARCHAR(10) NOT NULL,
+ custid	  VARCHAR(10) 	  NOT NULL,
  orderts  DATETIME2	  NOT NULL,
  qty	  INT		  NOT NULL,
  CONSTRAINT PK_Orders
