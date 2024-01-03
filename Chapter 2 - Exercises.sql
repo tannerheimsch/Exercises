@@ -62,7 +62,6 @@ SELECT empid, firstname, lastname
 FROM HR.Employees
 WHERE lastname LIKE '%e%e%';
 
-
 -- Output:
 empid       firstname  lastname
 ----------- ---------- --------------------
