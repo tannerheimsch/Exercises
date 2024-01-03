@@ -176,7 +176,7 @@ SELECT orderid, empid, orderdate
 FROM Sales.Orders
 WHERE orderid BETWEEN 10300 AND 10310;
 
--- Query to return employees whose last names tart with the letter D (LIKE predicate)
+-- Query to return employees whose last name start with the letter D (LIKE predicate)
 SELECT empid, firstname, lastname
 FROM HR.Employees
 WHERE lastname LIKE N'D%';
